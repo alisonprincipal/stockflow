@@ -117,3 +117,7 @@ O projeto utiliza uma arquitetura separando o frontend, backend e banco de dados
                     │     PostgreSQL      │
                     │      Database       │
                     └─────────────────────┘
+
+## 🖥️ Interface
+
+![StockFlow Dashboard](./docs/dashboard.png)
