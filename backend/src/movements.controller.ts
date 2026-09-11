@@ -1,0 +1,1 @@
+import {Body,Controller,Get,Post} from '@nestjs/common';import {MovementsService} from './movements.service';@Controller('stock-movements') export class MovementsController{constructor(private s:MovementsService){}@Get()all(){return this.s.all()}@Post()create(@Body()b:any){return this.s.create(b)}}
