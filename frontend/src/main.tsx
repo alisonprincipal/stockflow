@@ -3,7 +3,12 @@ import { createRoot } from 'react-dom/client';
 import axios from 'axios';
 import './style.css';
 
-const api = axios.create({ baseURL: 'http://localhost:3000' });
+
+const api = axios.create({
+  baseURL: 'https://stockflow-api-moru.onrender.com',
+});
+
+//const api = axios.create({ baseURL: 'http://localhost:3000' });
 
 type Product = {
   id: number;
